@@ -67,7 +67,7 @@ int main(void)
         // --- 2. 心率采样 (每10ms) ---
         if(bmptime >= 10)
         {
-            get_BMP();
+            get_BPM();
             bmptime = 0;
         }
 
