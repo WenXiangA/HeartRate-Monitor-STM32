@@ -1,0 +1,14 @@
+# 第三方代码：不计入仓库语言统计，也不显示在 diff 中
+# 说明：本文件只影响 GitHub 的统计与展示，不影响目录结构，
+#       clone 后 Keil 工程仍可直接编译（无需 --recursive）。
+
+# ST 标准外设库 V3.5
+software/stm32/STM32F10x_StdPeriph_Driver/** linguist-vendored
+
+# ST 官方启动文件
+software/stm32/startup/** linguist-vendored
+
+# ST CMSIS 器件头文件与系统初始化
+software/stm32/user/stm32f10x.h linguist-vendored
+software/stm32/user/system_stm32f10x.c linguist-vendored
+software/stm32/user/system_stm32f10x.h linguist-vendored

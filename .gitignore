@@ -1,0 +1,44 @@
+# Keil MDK / uVision 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.htm
+*.lnp
+*.sct
+*.map
+*.lst
+*.dep
+*.build_log.htm
+*.iex
+
+# Keil 用户环境配置 (每个人不同，不应提交)
+*.uvguix.*
+*.uvoptx
+*.uvgui.*
+
+# IDE 临时文件
+*.bak
+*.tmp
+*~
+
+# Keil RTE 自动生成 (保留目录结构)
+# RTE/_CarProject/
+# RTE/_Target_1/
+
+# 编译输出目录 (可重新生成)
+software/stm32/project/Objects/
+software/stm32/project/Listings/
+
+# 操作系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
